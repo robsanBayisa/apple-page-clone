@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header Style */
+.header-wrapper {
+  background: black;
+  color: #fff;
+  font-weight: 200;
+  font-size: 0.75em;
+}
+.header-wrapper ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.internal-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header-links-wrapper ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header-wrapper ul {
+  list-style: none;
+}
+.header-wrapper .header-links-wrapper ul li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+.header-wrapper .header-links-wrapper ul li:hover {
+  opacity: 1;
+}
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
+}
+
+.header-wrapper .header-links-wrapper ul li .logo-link {
+  padding: 12px 0 10px;
+}
+.header-wrapper .header-links-wrapper ul li .search-link {
+  padding: 14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul li.cart-link {
+  padding: 12px 0 10px;
+}
